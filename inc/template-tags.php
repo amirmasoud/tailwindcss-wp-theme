@@ -129,7 +129,7 @@ if ( ! function_exists( 'tailwindcss_post_thumbnail' ) ) :
 			?>
 
 			<div class="post-thumbnail">
-				<?php the_post_thumbnail(); ?>
+				<?php the_post_thumbnail('featured'); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
