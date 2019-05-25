@@ -28,7 +28,7 @@
 			endif;
 			?>
 		</header><!-- .entry-header -->
-		<div class="entry-content text-gray-700 <?php echo ( is_singular() ) ? '' : 'ml-4'; ?>">
+		<div class="entry-content text-gray-900 <?php echo ( is_singular() ) ? '' : 'ml-4'; ?>">
 			<?php
 			if (is_singular()) {
 				the_content( sprintf(
