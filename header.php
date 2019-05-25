@@ -24,11 +24,11 @@
 <div id="page" class="site">
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tailwindcss' ); ?></a>
 
-    <header id="masthead" class="site-header w-full border-gray-400 border-b bg-white shadow px-6 py-4 z-50 header-pin">
+    <header id="masthead" class="site-header w-full border-gray-400 border-b bg-white shadow px-6 z-50 header-pin">
         <div class="site-branding flex">
             <?php the_custom_logo(); ?>
             <h1 class="site-title font-bold mr-6"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-black" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-            <nav id="site-navigation" class="main-navigation">
+            <nav id="site-navigation" class="main-navigation mt-4">
                 <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
                     <span class="inline-block w-4 h-4">
                         <!-- menu button icon courtesy of FontAwesome -->
