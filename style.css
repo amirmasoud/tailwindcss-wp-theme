@@ -3,7 +3,7 @@ Theme Name: tailwindcss
 Author: Rose Sherwood
 Author URI: http://www.rosesherwood.com
 Description: A basic WordPress Theme that utilizes the Tailwind Framework
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: tailwindcss
@@ -289,4 +289,27 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+h2 {
+	font-size: 1.875rem !important;
+}
+
+h3 {
+	font-size: 1.5rem !important;
+}
+
+h4 {
+	font-size: 1.25rem !important;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 1.15rem !important;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 1rem !important;
+	font-weight: bold;
 }
